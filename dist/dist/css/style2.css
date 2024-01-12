@@ -1,0 +1,114 @@
+.landing-text-bold {
+	color: #fe611c;
+	font-weight: bold;
+}
+
+
+.socials-list {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.social-icon:hover {
+	cursor: pointer;
+}
+.socials-pad {
+	height: 120px;
+}
+
+.icon-center {
+	display: flex;
+	justify-content: center;
+}
+
+.feature2 {
+	margin-bottom: 2rem;
+	border-radius: 4px;
+}
+.feature-title2 {
+	font-size: 1.1rem;
+	color: #C6D3E6;
+	margin-bottom: 0.5rem;
+}
+.feature-price {
+	font-size: 1.5rem;
+	color: white;
+}
+.feature-list {
+	margin-top: 2rem;
+}
+.feature-list li {
+	margin-top: 1rem;
+}
+
+.socials-list {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.social-icon:hover {
+	cursor: pointer;
+}
+.socials-pad {
+	height: 120px;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: row;
+	max-width: 300px;
+	margin: 1rem auto;
+	gap: 1.5rem;
+	margin-bottom: 2rem;
+}
+.contact-icon {
+}
+.contact-text {
+	/* margin-top: 4px; */
+	text-align: start;
+	font-size: 1.125rem;
+}
+
+.self-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: min-content;
+}
+
+.text-light {
+	color: #ddd;
+}
+
+@media only screen and (max-width: 600px)  {
+	#feature-a {
+		order: 2;
+	}
+	#feature-b {
+		order: 1;
+	}
+	#feature-c {
+		order: 3;
+	}
+
+	.feature2 {
+		border: 1px solid #273C5A;
+	}
+
+	.device-mockup-wrap {
+			max-height: 400px;
+			overflow: hidden;
+	}
+}
+
+/*
+ * -free Czech course
+ * -
+ */
+
