@@ -1,3 +1,8 @@
+body {
+	max-width: 100% !important;
+	overflow-x: hidden;
+}
+
 .landing-text-bold {
 	color: #fe611c;
 	font-weight: bold;
